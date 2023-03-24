@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "PT Sans", sans-serif;
+}
+body {
+  height: 100vh;
+  background-image: url(img/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 25px;
+  width: 380px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 1px 10px rgba(18, 181, 240, 0.583);
+}
+.container h1 {
+  text-align: center;
+  color: #01ccdb;
+  font-family: Viga;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.container label {
+  text-align: left;
+  color: #004348;
+  margin-top: 10px;
+  font-family: Viga;
+}
+.container form input {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  border-bottom: 2px solid #01ccdb;
+  color: #004348;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.logout {
+  font-family: Viga;
+  font-size: 15px;
+  background: #01ccdb;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 22px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 10px;
+  border: none;
+}
+.logout {
+  text-decoration: none;
+}
+.logout:hover {
+  background-color: transparent;
+  color: #01ccdb;
+}
+
+h2 {
+  position: absolute;
+  left: 50%;
+}
+
+.container .login-form :hover {
+  background-color: #01ccdb;
+}

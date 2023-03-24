@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*layout  */
+.header-wrapper {
+  width: 100%;
+}
+
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.main {
+  height: 100%;
+}
+
+/* navbar */
+.nav {
+  margin: auto;
+  width: 100%;
+  box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.nav ul {
+  background-color: white;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+}
+
+.nav ul li h2 {
+  margin-left: 75px;
+  display: block;
+  padding: 20px;
+  color: #01ccdb;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Viga", sans-serif;
+  font-weight: lighter;
+}
+
+.nav ul li .logout {
+  float: right;
+}
+
+/* tombol logout */
+.logout {
+  font-family: Viga;
+  font-size: 15px;
+  background: #01ccdb;
+  color: white;
+  border-radius: 20px;
+  padding: 12px 20px;
+  margin-top: 15px;
+  float: right;
+  margin-right: 15px;
+}
+.logout {
+  text-decoration: none;
+}
+.logout:hover {
+  background-color: transparent;
+  color: #01ccdb;
+}
+/* navigasi */
+.navigasi {
+  margin: auto;
+  width: 100%;
+  box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.navigasi .ul-navigasi {
+  background-color: #01ccdb;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+  text-align: center;
+}
+
+.navigasi .ul-navigasi .li-navigasi {
+  margin: 10px;
+}
+
+.navigasi .ul-navigasi .li-navigasi a {
+  margin-left: 20px;
+  padding: 5px;
+  color: #003333;
+  text-decoration: none;
+  font-family: "Viga", sans-serif;
+  font-weight: lighter;
+}
+
+.navigasi .ul-navigasi .li-navigasi :hover {
+  background-color: #ddd;
+  border-radius: 20px;
+}
+
+/* konten */
+
+/* gambar */
+.gambar {
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+.gambar .cover {
+  width: 100%;
+  height: 550px;
+}
+
+/* konten web */
+.container {
+  background: white;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+  min-height: 100vh; /* menyesuaikan dengan tinggi layar*/
+  height: 100%;
+}
+
+.content-dashboard {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.content-dashboard1 h1 {
+  text-align: left;
+  font-family: "Viga";
+  font-size: 40px;
+  color: #13172d;
+  font-weight: lighter;
+  margin-left: 100px;
+}
+
+.content-yt {
+  text-align: center;
+  margin: 100px;
+}
+
+.content-yt h1 {
+  font-family: Viga;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: #01ccdb;
+}
+
+.content-dashboard2 {
+  background-color: #13172d;
+}
+
+.content-dashboard2a {
+  width: 100%;
+}
+
+.content-all {
+  width: 100%;
+  margin-top: 15px;
+  color: #01ccdb;
+  margin-bottom: 30px;
+}
+
+.content-all h2 {
+  padding: 35px;
+  font-family: viga;
+  text-align: center;
+  font-size: 30px;
+  color: #0a0d20;
+}
+
+.tambah {
+  font-family: Viga;
+  font-size: 15px;
+  background: #01ccdb;
+  color: white;
+  border-radius: 20px;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+.tambah:hover {
+  color: #01ccdb;
+  background-color: transparent;
+}
+
+/* tabel */
+.tabel {
+  margin-top: 10px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+table {
+  font-family: "PT Sans";
+  color: #13172d;
+  background: #eaebec;
+  border-bottom: #01ccdb 3px solid;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+table th {
+  padding: 15px 35px;
+  border-top: #01ccdb 3px solid;
+  background: #01ccdb;
+  font-family: Viga;
+}
+
+table th:first-child {
+  border-left: none;
+}
+
+table tr {
+  text-align: center;
+  padding-left: 20px;
+}
+
+table td:first-child {
+  text-align: left;
+  padding-left: 20px;
+  border-left: 0;
+}
+
+table td {
+  padding: 15px 35px;
+  border-top: 1px solid #01ccdb;
+  border-bottom: 1px solid #01ccdb;
+  border-left: 1px solid #01ccdb;
+  background: #fafafa;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fbfbfb),
+    to(#fafafa)
+  );
+  background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr:last-child td:first-child {
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+table tr:last-child td:last-child {
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+table tr:hover td {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* tombol tabel*/
+/* edit */
+.edit {
+  font-family: Viga;
+  font-size: 15px;
+  background: #01ccdb;
+  color: white;
+  border-radius: 20px;
+  padding: 12px 20px;
+  margin-top: 15px;
+  float: right;
+  margin-right: 15px;
+}
+.edit {
+  text-decoration: none;
+}
+.edit:hover {
+  background-color: transparent;
+  color: #01ccdb;
+}
+
+/* hapus */
+.hapus {
+  font-family: Viga;
+  font-size: 15px;
+  background: #ff3333;
+  color: white;
+  border-radius: 20px;
+  padding: 12px 20px;
+  margin-top: 15px;
+  float: right;
+  margin-right: 15px;
+}
+.hapus {
+  text-decoration: none;
+}
+.hapus:hover {
+  background-color: transparent;
+  color: #ff3333;
+}
+
+/* form cari */
+.form {
+  margin-left: 30px;
+  width: 200px;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-bottom: 2px solid #01ccdb;
+  border-top: 2px solid #01ccdb;
+}
+
+.form .cari {
+  width: 100%;
+  font-family: Viga;
+  font-size: 15px;
+  background: #01ccdb;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 22px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+}
+
+.form .cari:hover {
+  background-color: transparent;
+  color: #01ccdb;
+}
+
+/* alert cari */
+.content-all h3 {
+  padding: 25px;
+  font-family: "Pt Sans";
+}
+
+.content-all h3 span {
+  color: #ff3333;
+}
+
+/* footer */
+.footer-bungkus {
+  background: #01ccdb;
+  margin-top: auto;
+}
+
+.footer-content {
+  margin-right: 20px;
+  float: right;
+  margin: 10px;
+  font-family: Viga;
+  color: #0a0d20;
+}
+
+.footer-content p {
+  font-size: 15px;
+}
+
+/* tabel */
+.tabel-form {
+  padding: 20px 25px;
+  margin-left: 20px;
+  width: 700px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 1px 10px rgba(18, 181, 240, 0.583);
+}
+.tabel-form h1 {
+  text-align: center;
+  color: #01ccdb;
+  font-family: Viga;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.tabel-form label {
+  text-align: left;
+  color: #004348;
+  margin-top: 10px;
+  font-family: Viga;
+}
+.tabel-form input {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 20px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  border-bottom: 2px solid #01ccdb;
+  color: #004348;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.bt-nambah {
+  font-family: Viga;
+  font-size: 15px;
+  background: #01ccdb;
+  color: white;
+  border-radius: 20px;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin-left: 25px;
+  text-decoration: none;
+  border: none;
+}
+
+.bt-nambah:hover {
+  color: #01ccdb;
+  background-color: transparent;
+}
